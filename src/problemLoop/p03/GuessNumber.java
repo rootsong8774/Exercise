@@ -7,31 +7,31 @@ public class GuessNumber {
 
 	public static void main(String[] args) {
 		int low, high;
-		int card; // Ä«µå¿¡ ÀûÈù ¹øÈ£ °ª(¼û±â´Â °ª, Á¤´ä)
-		Random r = new Random(); // ³­¼ö ¹ß»ı±â »ı¼º
+		int card; // ì¹´ë“œì— ì íŒ ë²ˆí˜¸ ê°’(ìˆ¨ê¸°ëŠ” ê°’, ì •ë‹µ)
+		Random r = new Random(); // ë‚œìˆ˜ ë°œìƒê¸° ìƒì„±
 		card = r.nextInt(100);
 		System.out.println();
-		Scanner scanner = new Scanner(System.in); // Å°º¸µå ÀÔ·Â±â »ı¼º
+		Scanner scanner = new Scanner(System.in); // í‚¤ë³´ë“œ ì…ë ¥ê¸° ìƒì„±
 		int chance = 10;
 		
 		while(true) {
-			System.out.println("ÁÖ¾îÁø ±âÈ¸°¡ "+chance+" ¹ø ³²¾Ò½À´Ï´Ù.");
-			System.out.println("0~99¿¡¼­ ¼ö¸¦ °áÁ¤ÇÏ¿´½À´Ï´Ù. ¸ÂÃß¾î º¸¼¼¿ä");
+			System.out.println("ì£¼ì–´ì§„ ê¸°íšŒê°€ "+chance+" ë²ˆ ë‚¨ì•˜ìŠµë‹ˆë‹¤.");
+			System.out.println("0~99ì—ì„œ ìˆ˜ë¥¼ ê²°ì •í•˜ì˜€ìŠµë‹ˆë‹¤. ë§ì¶”ì–´ ë³´ì„¸ìš”");
 			String s = scanner.nextLine();
 			int trial = Integer.parseInt(s);
 			if (trial > card) {
-				System.out.println(trial + "º¸´Ù ³·Àº °ªÀÔ´Ï´Ù. ´Ù½Ã ½ÃµµÇÏ¼¼¿ä");
+				System.out.println(trial + "ë³´ë‹¤ ë‚®ì€ ê°’ì…ë‹ˆë‹¤. ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”");
 			} else if (trial < card){
-				System.out.println(trial +"º¸´Ù ³ôÀº °ªÀÔ´Ï´Ù. ´Ù½Ã ½ÃµµÇÏ¼¼¿ä");
+				System.out.println(trial +"ë³´ë‹¤ ë†’ì€ ê°’ì…ë‹ˆë‹¤. ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”");
 			} else if (trial == card) {
-				System.out.println("Á¤´äÀÔ´Ï´Ù. ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("ì •ë‹µì…ë‹ˆë‹¤. í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				break;
 			} else {
-				System.out.println("¹üÀ§¸¦ ¹ş¾î³µ½À´Ï´Ù.");
+				System.out.println("ë²”ìœ„ë¥¼ ë²—ì–´ë‚¬ìŠµë‹ˆë‹¤.");
 			}
 			chance--;
 			if (chance==0) {
-				System.out.println("´õ ÀÌ»ó ±âÈ¸°¡ ¾ø½À´Ï´Ù. ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("ë” ì´ìƒ ê¸°íšŒê°€ ì—†ìŠµë‹ˆë‹¤. í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				break;
 			}
 			
