@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="407e3ef7-d677-483f-b7d6-16494e6fc412" name="Changes" comment="made the codestyle neat">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemClass/src/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemOOP/q03/DicApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemOOP/q03/DicApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q03/DicApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q03/DicApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q03/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q03/Dictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q04/Concert.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q04/Concert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q04/ConcertApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q04/ConcertApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q04/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q04/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q04/Seat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q04/Seat.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -53,13 +53,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.ConcertApp">
-    <configuration name="ComputingAverageOfInputData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemArray.q05.ComputingAverageOfInputData" />
+  <component name="RunManager" selected="Application.PositivePoint">
+    <configuration name="ColorPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemInheritance.q03.ColorPoint" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemArray.q05.*" />
+          <option name="PATTERN" value="problemInheritance.q03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcertApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemOOP.q04.ConcertApp" />
+    <configuration name="ColorTV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemInheritance.q01.ColorTV" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemOOP.q04.*" />
+          <option name="PATTERN" value="problemInheritance.q01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DicApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemOOP.q03.DicApp" />
+    <configuration name="IPTV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemInheritance.q02.IPTV" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemOOP.q03.*" />
+          <option name="PATTERN" value="problemInheritance.q02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemOOP.q01.PhoneBook" />
+    <configuration name="Point3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemInheritance.q04.Point3D" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemOOP.q01.*" />
+          <option name="PATTERN" value="problemInheritance.q04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemOOP.q02.StaticEx" />
+    <configuration name="PositivePoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemInheritance.q05.PositivePoint" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemOOP.q02.*" />
+          <option name="PATTERN" value="problemInheritance.q05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConcertApp" />
-        <item itemvalue="Application.DicApp" />
-        <item itemvalue="Application.StaticEx" />
-        <item itemvalue="Application.PhoneBook" />
-        <item itemvalue="Application.ComputingAverageOfInputData" />
+        <item itemvalue="Application.PositivePoint" />
+        <item itemvalue="Application.Point3D" />
+        <item itemvalue="Application.ColorPoint" />
+        <item itemvalue="Application.IPTV" />
+        <item itemvalue="Application.ColorTV" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,10 @@
       <workItem from="1638787579042" duration="7000" />
       <workItem from="1638788254692" duration="1023000" />
       <workItem from="1638789411147" duration="94000" />
-      <workItem from="1638789521853" duration="405000" />
+      <workItem from="1638789521853" duration="675000" />
+      <workItem from="1638835166507" duration="17000" />
+      <workItem from="1638859524183" duration="1566000" />
+      <workItem from="1638863229060" duration="5207000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1638458072156</created>
@@ -192,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638788785097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="made the codestyle neat">
+      <created>1638790053356</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638790053356</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
