@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="407e3ef7-d677-483f-b7d6-16494e6fc412" name="Changes" comment="made the codestyle neat">
+    <list default="true" id="407e3ef7-d677-483f-b7d6-16494e6fc412" name="Changes" comment="Added ProblemSet for inheritance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q03/DicApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q03/DicApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q03/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q03/Dictionary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q04/Concert.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q04/Concert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q04/ConcertApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q04/ConcertApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q04/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q04/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/problemOOP/q04/Seat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemOOP/q04/Seat.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +12,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,13 +48,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.PositivePoint">
-    <configuration name="ColorPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemInheritance.q03.ColorPoint" />
+  <component name="RunManager" selected="Application.HotelTest">
+    <configuration name="ControllerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemAbstractAndInterface.q04.ControllerTest" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemInheritance.q03.*" />
+          <option name="PATTERN" value="ProblemAbstractAndInterface.q04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColorTV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemInheritance.q01.ColorTV" />
+    <configuration name="ControllerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemAbstractAndInterface.ControllerTest" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemInheritance.q01.*" />
+          <option name="PATTERN" value="ProblemAbstractAndInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IPTV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemInheritance.q02.IPTV" />
+    <configuration name="HotelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemAbstractAndInterface.q06.HotelTest" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemInheritance.q02.*" />
+          <option name="PATTERN" value="ProblemAbstractAndInterface.q06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Point3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemInheritance.q04.Point3D" />
+    <configuration name="HumanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemAbstractAndInterface.q05.HumanTest" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemInheritance.q04.*" />
+          <option name="PATTERN" value="ProblemAbstractAndInterface.q05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositivePoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemInheritance.q05.PositivePoint" />
+    <configuration name="TalkableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemAbstractAndInterface.q03.TalkableTest" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemInheritance.q05.*" />
+          <option name="PATTERN" value="ProblemAbstractAndInterface.q03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PositivePoint" />
-        <item itemvalue="Application.Point3D" />
-        <item itemvalue="Application.ColorPoint" />
-        <item itemvalue="Application.IPTV" />
-        <item itemvalue="Application.ColorTV" />
+        <item itemvalue="Application.HotelTest" />
+        <item itemvalue="Application.HumanTest" />
+        <item itemvalue="Application.ControllerTest (1)" />
+        <item itemvalue="Application.ControllerTest" />
+        <item itemvalue="Application.TalkableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +160,13 @@
       <workItem from="1638789521853" duration="675000" />
       <workItem from="1638835166507" duration="17000" />
       <workItem from="1638859524183" duration="1566000" />
-      <workItem from="1638863229060" duration="5207000" />
+      <workItem from="1638863229060" duration="5629000" />
+      <workItem from="1638877834682" duration="115000" />
+      <workItem from="1638921591910" duration="601000" />
+      <workItem from="1638944652597" duration="1069000" />
+      <workItem from="1638946261721" duration="1196000" />
+      <workItem from="1638947663758" duration="374000" />
+      <workItem from="1638949208597" duration="3516000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1638458072156</created>
@@ -202,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638790053356</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added ProblemSet for inheritance">
+      <created>1638868743571</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638868743571</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +232,7 @@
     <MESSAGE value="Setting up eclipse to intelliJ" />
     <MESSAGE value="Added problemClass and problemOOP" />
     <MESSAGE value="made the codestyle neat" />
-    <option name="LAST_COMMIT_MESSAGE" value="made the codestyle neat" />
+    <MESSAGE value="Added ProblemSet for inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ProblemSet for inheritance" />
   </component>
 </project>
