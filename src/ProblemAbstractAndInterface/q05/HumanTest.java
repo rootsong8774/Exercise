@@ -1,6 +1,7 @@
 package ProblemAbstractAndInterface.q05;
 
-interface Human{
+interface Human {
+
     void eat();
 
     default void print() {
@@ -11,25 +12,32 @@ interface Human{
         System.out.println("야호!!!");
     }
 }
+
 class Worker implements Human {
+
     @Override
     public void print() {
         System.out.println("노동자입니다.");
     }
+
     public void eat() {
         System.out.println("식사 중입니다.");
     }
 }
 
 class Student implements Human {
+
     int age;
-    Student(int age){
+
+    Student(int age) {
         this.age = age;
     }
+
     @Override
     public void print() {
         System.out.println("학생입니다.");
     }
+
     public void eat() {
         System.out.println("식사 중입니다.");
     }
