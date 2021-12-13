@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="407e3ef7-d677-483f-b7d6-16494e6fc412" name="Changes" comment="Added ProblemSet for Abstract and Interface.">
+    <list default="true" id="407e3ef7-d677-483f-b7d6-16494e6fc412" name="Changes" comment="Added ProblemSet for Inheritance.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProblemAbstractAndInterface/q05/HumanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProblemAbstractAndInterface/q05/HumanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q05/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q05/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q05/HumanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q05/HumanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q05/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q05/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q05/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q05/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q06/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q06/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q06/HotelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProblemAbstractAndInterface/q06/HotelTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +47,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FunctionalInterface/src/sec03/exam03/SupplierDemo.java" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.GraphicEditor">
-    <configuration name="DictionaryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemInheritance02.q02.DictionaryApp" />
+  <component name="RunManager" selected="Application.animalSoundTest">
+    <configuration name="SortingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemFunctionalProgramming.q01.SortingStrings" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemInheritance02.q02.*" />
+          <option name="PATTERN" value="problemFunctionalProgramming.q01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemInheritance02.q04.Game" />
+    <configuration name="animalSound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemFunctionalProgramming.q03.animalSound" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemInheritance02.q04.*" />
+          <option name="PATTERN" value="problemFunctionalProgramming.q03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphicEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemInheritance02.q03.GraphicEditor" />
+    <configuration name="animalSoundTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemFunctionalProgramming.q03.animalSoundTest" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemInheritance02.q03.*" />
+          <option name="PATTERN" value="problemFunctionalProgramming.q03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProblemAbstractAndInterface.q06.HotelTest" />
+    <configuration name="printingWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemFunctionalProgramming.q02.printingWords" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProblemAbstractAndInterface.q06.*" />
+          <option name="PATTERN" value="problemFunctionalProgramming.q02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemInheritance02.q01.StackApp" />
+    <configuration name="sortingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemFunctionalProgramming.q01.sortingStrings" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemInheritance02.q01.*" />
+          <option name="PATTERN" value="problemFunctionalProgramming.q01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GraphicEditor" />
-        <item itemvalue="Application.DictionaryApp" />
-        <item itemvalue="Application.StackApp" />
-        <item itemvalue="Application.Game" />
-        <item itemvalue="Application.HotelTest" />
+        <item itemvalue="Application.animalSoundTest" />
+        <item itemvalue="Application.animalSound" />
+        <item itemvalue="Application.printingWords" />
+        <item itemvalue="Application.SortingStrings" />
+        <item itemvalue="Application.sortingStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +177,11 @@
       <workItem from="1638963513555" duration="1086000" />
       <workItem from="1638969969829" duration="2124000" />
       <workItem from="1638973549377" duration="792000" />
-      <workItem from="1639008131388" duration="26948000" />
+      <workItem from="1639008131388" duration="27442000" />
+      <workItem from="1639045344788" duration="655000" />
+      <workItem from="1639094434571" duration="77000" />
+      <workItem from="1639159509905" duration="6000" />
+      <workItem from="1639382519836" duration="6125000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1638458072156</created>
@@ -223,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638953114879</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added ProblemSet for Inheritance.">
+      <created>1639040597454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639040597454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +263,7 @@
     <MESSAGE value="made the codestyle neat" />
     <MESSAGE value="Added ProblemSet for inheritance" />
     <MESSAGE value="Added ProblemSet for Abstract and Interface." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ProblemSet for Abstract and Interface." />
+    <MESSAGE value="Added ProblemSet for Inheritance." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ProblemSet for Inheritance." />
   </component>
 </project>
