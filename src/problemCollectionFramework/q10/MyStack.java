@@ -11,7 +11,8 @@ interface IStack<T> {
 
 public class MyStack extends Vector implements IStack {
 
-    Vector<Integer> integerVector =new Vector<>();
+    private Vector<Integer> integerVector = new Vector<>();
+
     MyStack() {
 
     }
@@ -20,7 +21,7 @@ public class MyStack extends Vector implements IStack {
         IStack<Integer> stack = new MyStack();
 
         for (int i = 0; i < 10; i++) {
-            int inputNum = 2* i;
+            int inputNum = 2 * i + 1;
             stack.push(inputNum); // 10개의 정수 푸시
         }
         while (true) { // 스택이 빌 때까지 pop
@@ -31,13 +32,16 @@ public class MyStack extends Vector implements IStack {
             System.out.print(n + " ");
         }
 
-
     }
 
     @Override
     public Object pop() {
+        if (integerVector.isEmpty()) {
+            return null;
+        } else {
 
-            return this.integerVector.remove(this.integerVector.size()-1);
+            return this.integerVector.remove(this.integerVector.size() - 1);
+        }
 
     }
 

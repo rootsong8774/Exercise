@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="407e3ef7-d677-483f-b7d6-16494e6fc412" name="Changes" comment="added Problemset for Collection Framework 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/problemCollectionFramework/q01/PrintLargestValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemCollectionFramework/q01/PrintLargestValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/problemCollectionFramework/q02/GradeCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemCollectionFramework/q02/GradeCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/problemCollectionFramework/q10/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemCollectionFramework/q10/MyStack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problemCollectionFramework/q10/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemCollectionFramework/q10/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +188,7 @@
       <workItem from="1639628772070" duration="2222000" />
       <workItem from="1639633580829" duration="11932000" />
       <workItem from="1639699382795" duration="7630000" />
-      <workItem from="1639710187263" duration="26948000" />
+      <workItem from="1639710187263" duration="28964000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1638458072156</created>
@@ -275,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639740041279</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added Problemset for Collection Framework 2">
+      <created>1639741951854</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639741951854</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
