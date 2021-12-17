@@ -1,6 +1,5 @@
 package problemCollectionFramework.q10;
 
-
 import java.util.Vector;
 
 interface IStack<T> {
@@ -12,7 +11,7 @@ interface IStack<T> {
 
 public class MyStack extends Vector implements IStack {
 
-    Vector<Integer> integerVector;
+    Vector<Integer> integerVector =new Vector<>();
     MyStack() {
 
     }
@@ -21,7 +20,8 @@ public class MyStack extends Vector implements IStack {
         IStack<Integer> stack = new MyStack();
 
         for (int i = 0; i < 10; i++) {
-            stack.push(i); // 10개의 정수 푸시
+            int inputNum = 2* i;
+            stack.push(inputNum); // 10개의 정수 푸시
         }
         while (true) { // 스택이 빌 때까지 pop
             Integer n = stack.pop();
@@ -30,13 +30,15 @@ public class MyStack extends Vector implements IStack {
             }
             System.out.print(n + " ");
         }
-    }
 
+
+    }
 
     @Override
     public Object pop() {
 
-        return this.integerVector.remove(this.integerVector.size());
+            return this.integerVector.remove(this.integerVector.size()-1);
+
     }
 
     @Override

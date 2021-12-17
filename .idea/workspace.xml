@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="407e3ef7-d677-483f-b7d6-16494e6fc412" name="Changes" comment="included minor change in Functional programming and added Problemset for Exception and BasicAPIClass.">
+    <list default="true" id="407e3ef7-d677-483f-b7d6-16494e6fc412" name="Changes" comment="added Problemset for Collection Framework 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/problemCollectionFramework/q01/PrintLargestValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemCollectionFramework/q01/PrintLargestValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/problemCollectionFramework/q02/GradeCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/problemCollectionFramework/q02/GradeCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemCollectionFramework/q10/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemCollectionFramework/q10/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +51,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.AveragePrecipitation">
-    <configuration name="AveragePrecipitation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemCollectionFramework.q04.AveragePrecipitation" />
+  <component name="RunManager" selected="Application.MyStack">
+    <configuration name="CapitialQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemCollectionFramework.q12.CapitialQuiz" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemCollectionFramework.q04.*" />
+          <option name="PATTERN" value="problemCollectionFramework.q12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingNumberOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemBasicAPIClass.q04.CountingNumberOfWords" />
+    <configuration name="GraphicEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemCollectionFramework.q11.GraphicEditor" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemBasicAPIClass.q04.*" />
+          <option name="PATTERN" value="problemCollectionFramework.q11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountryAndPopulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemCollectionFramework.q03.CountryAndPopulation" />
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemCollectionFramework.q10.MyStack" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemCollectionFramework.q03.*" />
+          <option name="PATTERN" value="problemCollectionFramework.q10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemCollectionFramework.q02.GradeCalculator" />
+    <configuration name="PointManger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemCollectionFramework.q09.PointManger" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemCollectionFramework.q02.*" />
+          <option name="PATTERN" value="problemCollectionFramework.q09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintLargestValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemCollectionFramework.q01.PrintLargestValue" />
+    <configuration name="ScholarshipList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemCollectionFramework.q08.ScholarshipList" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemCollectionFramework.q01.*" />
+          <option name="PATTERN" value="problemCollectionFramework.q08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AveragePrecipitation" />
-        <item itemvalue="Application.CountryAndPopulation" />
-        <item itemvalue="Application.PrintLargestValue" />
-        <item itemvalue="Application.GradeCalculator" />
-        <item itemvalue="Application.CountingNumberOfWords" />
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.CapitialQuiz" />
+        <item itemvalue="Application.GraphicEditor" />
+        <item itemvalue="Application.PointManger" />
+        <item itemvalue="Application.ScholarshipList" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +187,9 @@
       <workItem from="1639558351205" duration="387000" />
       <workItem from="1639613718235" duration="15000" />
       <workItem from="1639628772070" duration="2222000" />
-      <workItem from="1639633580829" duration="10347000" />
+      <workItem from="1639633580829" duration="11932000" />
+      <workItem from="1639699382795" duration="7630000" />
+      <workItem from="1639710187263" duration="26948000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1638458072156</created>
@@ -256,7 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639558682711</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added Problemset for Collection Framework">
+      <created>1639644288549</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639644288549</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added Problemset for Collection Framework 2">
+      <created>1639740041279</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1639740041279</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +302,8 @@
     <MESSAGE value="Added ProblemSet for Inheritance." />
     <MESSAGE value="Added ProblemSet for Functional Programming." />
     <MESSAGE value="included minor change in Functional programming and added Problemset for Exception and BasicAPIClass." />
-    <option name="LAST_COMMIT_MESSAGE" value="included minor change in Functional programming and added Problemset for Exception and BasicAPIClass." />
+    <MESSAGE value="added Problemset for Collection Framework" />
+    <MESSAGE value="added Problemset for Collection Framework 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Problemset for Collection Framework 2" />
   </component>
 </project>
