@@ -2,6 +2,7 @@ package problemLambdaAndStream;
 
 import java.util.ArrayList;
 import java.util.List;
+import problemLambdaAndStream.Dish.Type;
 
 public class RefactoringAndFilteringMain {
 
@@ -20,7 +21,7 @@ public class RefactoringAndFilteringMain {
             .filter(dish -> dish.getCalories() > 300).map(Dish::getName).toList();
         System.out.println(highCaloricDishes2);
         System.out.println("========================Q5.1=============================");
-        List<Dish> notVegetarianMenu = Dish.menu.stream().filter(dish -> !dish.isVegetarian())
+        List<Dish> notVegetarianMenu = Dish.menu.stream().filter(dish -> dish.getType()== Type.MEAT)
             .limit(2).toList();
         System.out.println(notVegetarianMenu);
     }

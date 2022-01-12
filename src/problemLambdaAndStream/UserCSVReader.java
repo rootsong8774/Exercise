@@ -29,16 +29,21 @@ public class UserCSVReader {
         }
 
         System.out.println("============================Q6.1============================");
-        List<String> hobbyList = csvList.stream().skip(2).map(strings -> strings.get(1))
+        List<String> hobbyList = csvList.stream().skip(1).map(strings -> strings.get(1))
             .map(s -> s.split(":")).flatMap(Arrays::stream).distinct().toList();
         hobbyList.stream().map(hobby -> "(" + hobby + ":" + countHobby(csvList, hobby) + ")")
             .forEach(
-                s-> System.out.print(s+" "));
-
+                s -> System.out.print(s + " "));
         System.out.println("\n============================Q6.2============================");
-        System.out.println("정씨 성을 가진 사람 수는 " + countLastName(csvList, "정") + "명입니다.");
 
-        System.out.println("============================Q6.3============================");
+        List<List<String>> jeongList = csvList.stream().filter(s -> s.get(0).startsWith("정"))
+            .toList();
+
+        hobbyList.stream().map(hobby -> "(" + hobby + ":" + countHobby(jeongList, hobby) + ")")
+            .forEach(
+                s -> System.out.print(s + " "));
+
+        System.out.println("\n============================Q6.3============================");
         System.out.println("'좋아'라는 단어는 " + countIntroSearch(csvList, "좋아") + "번 사용되었습니다.");
     }
 
@@ -50,12 +55,12 @@ public class UserCSVReader {
 
     }
 
-    public static int countLastName(List<List<String>> csvList, String lastName) {
+    /*public static int countLastName(List<List<String>> csvList, String lastName) {
         List<Character> lastNameList = csvList.stream().skip(1)
             .map(strings -> strings.get(0).charAt(0)).toList();
         return (int) lastNameList.stream().filter(s -> s.equals(lastName.charAt(0))).count();
 
-    }
+    }*/
 
     public static int countIntroSearch(List<List<String>> csvList, String word) {
         List<String> introList = csvList.stream().skip(1).map(strings -> strings.get(2)).toList();
